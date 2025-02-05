@@ -28,3 +28,4 @@ df_transformed.show()
 df_transformed.write.format('delta').mode('overwrite').save('/mnt/blob-storage/deezer-data/silver')
 
 spark.stop()
+
